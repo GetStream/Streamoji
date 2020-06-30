@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Streamoji_Example' do
+  pod 'Streamoji', :path => '../'
+
+  target 'Streamoji_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
