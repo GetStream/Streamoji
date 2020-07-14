@@ -31,4 +31,3 @@ cardoso, matheus@cardo.so
 ## License
 
 Streamoji is available under the MIT license. See the LICENSE file for more info.
-# Streamoji
