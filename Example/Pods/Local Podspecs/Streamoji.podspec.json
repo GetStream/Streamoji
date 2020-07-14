@@ -1,0 +1,30 @@
+{
+  "name": "Streamoji",
+  "version": "0.1.0",
+  "summary": "A short description of Streamoji.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cardoso/Streamoji",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cardoso": "matheus@cardo.so"
+  },
+  "source": {
+    "git": "https://github.com/cardoso/Streamoji.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Streamoji/Classes/**/*",
+  "dependencies": {
+    "SwiftyGif": [
+      "~> 5.2.0"
+    ],
+    "Nuke": [
+      "~> 8.4"
+    ]
+  }
+}
