@@ -1,4 +1,8 @@
-# Streamoji
+<p align="center">
+  <a href="https://github.com/GetStream/Streamoji/"><img src="meta/images/banner.gif" width="60%" /></a>
+</p>
+
+<hr />
 
 [![CI Status](https://img.shields.io/travis/cardoso/Streamoji.svg?style=flat)](https://travis-ci.org/cardoso/Streamoji)
 [![Version](https://img.shields.io/cocoapods/v/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
