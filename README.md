@@ -73,7 +73,7 @@ pod 'Streamoji'
 
 ## Author
 
-cardoso, matheus@cardo.so
+cardoso, matheus@gestream.io
 
 ## License
 
