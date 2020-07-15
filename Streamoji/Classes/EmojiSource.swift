@@ -8,18 +8,24 @@
 
 import Foundation
 
-public enum EmojiSource: Codable, Hashable {
+/// An enum that represents the source of the emoji
+public enum EmojiSource {
+    /// A standard unicode emoji e.g. "😁"
     case character(String)
+    /// A  URL to an image e.g. "https://example.com/party_parrot.gif"
     case imageUrl(String)
+    /// An asset name of an image e.g. "homer_disappering.gif"
+    case imageAsset(String)
+    /// An alias to another emoji shortcode e.g. "party_parrot"
     case alias(String)
 }
 
-public extension EmojiSource {
+extension EmojiSource: Codable, Hashable {
     enum CodingKeys: CodingKey {
-        case character, imageUrl, alias
+        case character, imageUrl, imageAsset, alias
     }
     
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         switch container.allKeys.first {
@@ -27,6 +33,10 @@ public extension EmojiSource {
             self = .character(try container.decode(String.self, forKey: .character))
         case .imageUrl:
             self = .imageUrl(try container.decode(String.self, forKey: .imageUrl))
+        case .imageAsset:
+            self = .imageAsset(try container.decode(String.self, forKey: .imageAsset))
+        case .alias:
+            self = .alias(try container.decode(String.self, forKey: .alias))
         default:
             throw DecodingError.dataCorrupted(
                 DecodingError.Context(
@@ -37,15 +47,17 @@ public extension EmojiSource {
         }
     }
     
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
         switch self {
-        case .character(let character):
+        case let .character(character):
             try container.encode(character, forKey: .character)
-        case .imageUrl(let imageUrl):
+        case let .imageUrl(imageUrl):
             try container.encode(imageUrl, forKey: .imageUrl)
-        case .alias(let alias):
+        case let .imageAsset(imageAsset):
+            try container.encode(imageAsset, forKey: .imageAsset)
+        case let .alias(alias):
             try container.encode(alias, forKey: .alias)
         }
     }

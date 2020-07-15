@@ -8,11 +8,19 @@
 
 import Streamoji
 
+let path = "https://github.com/GetStream/Streamoji/blob/main/meta/emojis"
+//https://github.com/GetStream/Streamoji/blob/main/meta/emojis/party_parrot.gif?raw=true
 let exampleEmojis: [String: EmojiSource] = [
-    "party_parrot": .imageUrl("https://ppaas.herokuapp.com/partyparrot?overlay=&overlayWidth=20&overlayHeight=20&overlayOffsetX=0&overlayOffsetY=0"),
-    "charmander_dancing": .imageUrl("https://emojis.slackmojis.com/emojis/images/1469223471/679/charmander_dancing.gif?1469223471"),
-    "troll_face": .imageUrl("https://emojis.slackmojis.com/emojis/images/1463602125/429/troll.png?1463602125"),
+    "baby_yoda": .imageAsset("baby-yoda-soup.gif"),
+    "banana_dance": .imageAsset("bananadance.gif"),
+    "excuse_me": .imageAsset("excuseme.gif"),
+    "party_parrot": .imageAsset("party_parrot.gif"),
+    "this_is_fine": .imageAsset("this-is-fine-fire.gif"),
+    "what": .imageAsset("what.png"),
+    "homer_disappear": .imageAsset("homer-disappear.gif"),
+    "
     "smiley": .character("😄"),
     "heart": .character("❤️"),
+    "banana": .alias("banana_dance"),
     "parrot": .alias("party_parrot")
 ]

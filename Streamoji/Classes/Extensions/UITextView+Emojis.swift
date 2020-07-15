@@ -12,6 +12,10 @@ fileprivate var renderViews: [EmojiSource: UIImageView] = [:]
 
 // MARK: Public
 extension UITextView {
+    /// Configures this UITextView to display custom emojis.
+    ///
+    /// - Parameter emojis: A dictionary of emoji keyed by its shortcode.
+    /// - Parameter rendering: The rendering options. Defaults to `.highQuality`.
     public func configureEmojis(_ emojis: [String: EmojiSource], rendering: EmojiRendering = .highQuality) throws {
         self.applyEmojis(emojis, rendering: rendering)
 
@@ -34,9 +38,13 @@ extension UITextView {
     }
     
     private func applyEmojis(_ emojis: [String: EmojiSource], rendering: EmojiRendering) {
+        let range = selectedRange
+        let count = attributedText?.string.count ?? 0
         self.attributedText = attributedText.insertingEmojis(emojis)
+        let newCount = attributedText.string.count
         customEmojiViews.forEach { $0.removeFromSuperview() }
         addEmojiImagesIfNeeded(rendering: rendering)
+        selectedRange = NSRange(location: range.location - (count - newCount), length: range.length)
     }
     
     private func addEmojiImagesIfNeeded(rendering: EmojiRendering) {
@@ -59,23 +67,29 @@ extension UITextView {
                 emojiView.backgroundColor = self.backgroundColor
                 emojiView.isUserInteractionEnabled = false
                 
-                switch emoji {
-                case .character(let character):
-                    emojiView.label.text = character
-                case .imageUrl(let imageUrl):
-                    if renderViews[emoji] == nil, let url = URL(string: imageUrl) {
+                if let view = renderViews[emoji] {
+                    emojiView.setFromRenderView(view)
+                } else {
+                    switch emoji {
+                    case let .character(character):
+                        emojiView.label.text = character
+                    case let .imageUrl(imageUrl):
+                        if let url = URL(string: imageUrl) {
+                            let renderView = UIImageView(frame: rect)
+                            renderView.setFromURL(url, rendering: rendering)
+                            renderViews[emoji] = renderView
+                            self.window?.addSubview(renderView)
+                            renderView.alpha = 0
+                        }
+                    case let .imageAsset(imageAsset):
                         let renderView = UIImageView(frame: rect)
-                        renderView.setFromURL(url, rendering: rendering)
+                        renderView.setFromAsset(imageAsset, rendering: rendering)
                         renderViews[emoji] = renderView
                         self.window?.addSubview(renderView)
                         renderView.alpha = 0
+                    case .alias:
+                        break
                     }
-                
-                    if let view = renderViews[emoji] {
-                        emojiView.setFromRenderView(view)
-                    }
-                case .alias:
-                    break
                 }
                 
                 self.textContainerView.addSubview(emojiView)

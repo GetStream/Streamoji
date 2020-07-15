@@ -9,7 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'Streamoji'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Streamoji.'
+  s.summary          = 'Custom emoji rendering library for iOS apps with support for GIF & images.'
+
+  s.swift_version = '5.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +20,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Custom emoji rendering library for iOS apps with support for GIF & images
+Plug-in extension for UITextView
+Made with 💘 by GetStream.io
                        DESC
 
-  s.homepage         = 'https://github.com/cardoso/Streamoji'
+  s.homepage         = 'https://github.com/GetStream/Streamoji'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'cardoso' => 'matheus@cardo.so' }
-  s.source           = { :git => 'https://github.com/cardoso/Streamoji.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'cardoso' => 'matheus@getstream.io' }
+  s.source           = { :git => 'https://github.com/GetStream/Streamoji.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/getstream_io'
 
   s.ios.deployment_target = '10.0'
 
@@ -39,6 +43,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency "SwiftyGif", "~> 5.2.0"
+  s.dependency "SwiftyGif", "~> 5.2"
   s.dependency "Nuke", "~> 8.4"
 end

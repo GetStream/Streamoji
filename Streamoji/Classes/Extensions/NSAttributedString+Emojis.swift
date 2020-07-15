@@ -48,10 +48,23 @@ extension NSMutableAttributedString {
         var notMatched = [NSRange]()
 
         for range in ranges {
-            let emojiAttachment = NSTextAttachment()
-            emojiAttachment.bounds = CGRect(x: 0, y: 0, width: 22.0, height: 22.0)
             let transformedRange = NSRange(location: range.location - offset, length: range.length)
             let replacementString = self.attributedSubstring(from: transformedRange)
+            let font = replacementString.attribute(.font, at: 0, effectiveRange: .none) as? UIFont
+            let paragraphStyle = replacementString.attribute(.paragraphStyle, at: 0, effectiveRange: .none) as? NSParagraphStyle
+            
+            let emojiAttachment = NSTextAttachment()
+            let fontSize = (font?.pointSize ?? 22.0)
+            emojiAttachment.bounds = CGRect(x: 0, y: 0, width: fontSize, height: fontSize)
+            
+            let emojiAttributedString = NSMutableAttributedString(attachment: emojiAttachment)
+            
+            if let font = font, let paragraphStyle = paragraphStyle {
+                emojiAttributedString.setAttributes(
+                    [.font: font, .paragraphStyle: paragraphStyle, .attachment: emojiAttachment],
+                    range: .init(location: 0, length: emojiAttributedString.length)
+                )
+            }
 
             if var emoji = emojis[replacementString.string.replacingOccurrences(of: ":", with: "")] {
                 if case .alias(let alias) = emoji {
@@ -61,7 +74,7 @@ extension NSMutableAttributedString {
                 emojiAttachment.contents = try! JSONEncoder().encode(emoji)
                 self.replaceCharacters(
                     in: transformedRange,
-                    with: NSAttributedString(attachment: emojiAttachment)
+                    with: emojiAttributedString
                 )
 
                 offset += replacementString.length - 1

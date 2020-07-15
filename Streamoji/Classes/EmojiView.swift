@@ -9,7 +9,7 @@ import UIKit
 import SwiftyGif
 import Nuke
 
-extension EmojiRendering {
+internal extension EmojiRendering {
     var gifLevelOfIntegrity: GifLevelOfIntegrity {
         switch quality {
         case .highest: return .highestNoFrameSkipping
@@ -28,7 +28,7 @@ internal extension UIImageView {
             switch result {
             case .success(let response):
                 if let animation = response.image.animatedImageData,
-                    let gifImage = try? UIImage(gifData: animation, levelOfIntegrity: rendering.gifLevelOfIntegrity) {
+                   let gifImage = try? UIImage(gifData: animation, levelOfIntegrity: rendering.gifLevelOfIntegrity) {
                     DispatchQueue.main.async {
                         self.setGifImage(gifImage)
                         self.startAnimating()
@@ -40,6 +40,18 @@ internal extension UIImageView {
                 }
             case .failure:
                 break
+            }
+        }
+    }
+    
+    func setFromAsset(_ name: String, rendering: EmojiRendering) {
+        DispatchQueue.main.async {
+            if let asset = NSDataAsset(name: name),
+               let gifImage = try? UIImage(gifData: asset.data, levelOfIntegrity: rendering.gifLevelOfIntegrity) {
+                    self.setGifImage(gifImage)
+                    self.startAnimating()
+            } else if let image = UIImage(named: name) {
+                self.setImage(image)
             }
         }
     }
@@ -69,7 +81,6 @@ internal final class EmojiView: UIView {
 
     private func commonInit() {
         imageView.contentMode = .scaleAspectFit
-        label.lineBreakMode = .byClipping
         addSubview(imageView)
         addSubview(label)
     }
