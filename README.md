@@ -28,7 +28,7 @@ pod 'Streamoji'
 
 ### 1. Define Emojis
 
-First step is to define your custom emojis in a dictionary with the key being the :shortcode: for the emoji and the EmojiSource being the, uhmmm, source of the emoji! It can be from GIF or image in a local asset, remote URL, or even a unicode character.
+First step is to define your custom emojis in a dictionary with the key being the :shortcode: for the emoji and the EmojiSource being the, uhmmm, source of the emoji! It can be from GIF or image in a local asset, remote URL, or even a unicode character. You can also define aliases (alternate codes).
 
 ```swift
 let exampleEmojis: [String: EmojiSource] = [
