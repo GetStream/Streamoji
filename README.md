@@ -54,7 +54,6 @@ After defining your emojis, you should call `UITextView.configureEmojis`:
 ```swift
 textView.attributedText = NSAttributedString(string:
     """
-
     :banana_dance: Streamoji :party_parrot:
     :baby_yoda: This is a UITextView! :excuse_me:
 
@@ -64,7 +63,6 @@ textView.attributedText = NSAttributedString(string:
     Local file :homer_disappear:
     Remote file :let_me_in:
     Unicode :smiley:
-
     """
 )
 
