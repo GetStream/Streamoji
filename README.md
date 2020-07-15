@@ -9,19 +9,6 @@
 [![License](https://img.shields.io/cocoapods/l/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
 [![Platform](https://img.shields.io/cocoapods/p/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Installation
-
-Streamoji is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'Streamoji'
-```
-
 <img align="right" src="meta/images/demo.gif" width="33%" />
 
 ## Usage
@@ -70,6 +57,19 @@ textView.configureEmojis(exampleEmojis, rendering: .highestQuality)
 ```
 
 You can also tweak a couple (for now) rendering options: `quality` and `scale`.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Installation
+
+Streamoji is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'Streamoji'
+```
 
 ## Author
 
