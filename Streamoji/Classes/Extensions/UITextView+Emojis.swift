@@ -67,29 +67,29 @@ extension UITextView {
                 emojiView.backgroundColor = self.backgroundColor
                 emojiView.isUserInteractionEnabled = false
                 
-                if let view = renderViews[emoji] {
-                    emojiView.setFromRenderView(view)
-                } else {
-                    switch emoji {
-                    case let .character(character):
-                        emojiView.label.text = character
-                    case let .imageUrl(imageUrl):
-                        if let url = URL(string: imageUrl) {
-                            let renderView = UIImageView(frame: rect)
-                            renderView.setFromURL(url, rendering: rendering)
-                            renderViews[emoji] = renderView
-                            self.window?.addSubview(renderView)
-                            renderView.alpha = 0
-                        }
-                    case let .imageAsset(imageAsset):
+                switch emoji {
+                case let .character(character):
+                    emojiView.label.text = character
+                case let .imageUrl(imageUrl):
+                    if let url = URL(string: imageUrl) {
                         let renderView = UIImageView(frame: rect)
-                        renderView.setFromAsset(imageAsset, rendering: rendering)
+                        renderView.setFromURL(url, rendering: rendering)
                         renderViews[emoji] = renderView
                         self.window?.addSubview(renderView)
                         renderView.alpha = 0
-                    case .alias:
-                        break
                     }
+                case let .imageAsset(imageAsset):
+                    let renderView = UIImageView(frame: rect)
+                    renderView.setFromAsset(imageAsset, rendering: rendering)
+                    renderViews[emoji] = renderView
+                    self.window?.addSubview(renderView)
+                    renderView.alpha = 0
+                case .alias:
+                    break
+                }
+                
+                if let view = renderViews[emoji] {
+                    emojiView.setFromRenderView(view)
                 }
                 
                 self.textContainerView.addSubview(emojiView)
