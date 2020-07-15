@@ -16,7 +16,7 @@ extension UITextView {
     ///
     /// - Parameter emojis: A dictionary of emoji keyed by its shortcode.
     /// - Parameter rendering: The rendering options. Defaults to `.highQuality`.
-    public func configureEmojis(_ emojis: [String: EmojiSource], rendering: EmojiRendering = .highQuality) throws {
+    public func configureEmojis(_ emojis: [String: EmojiSource], rendering: EmojiRendering = .highQuality) {
         self.applyEmojis(emojis, rendering: rendering)
 
         NotificationCenter.default.addObserver(
@@ -71,6 +71,10 @@ extension UITextView {
                 case let .character(character):
                     emojiView.label.text = character
                 case let .imageUrl(imageUrl):
+                    guard renderViews[emoji] == nil else {
+                        break
+                    }
+                    
                     if let url = URL(string: imageUrl) {
                         let renderView = UIImageView(frame: rect)
                         renderView.setFromURL(url, rendering: rendering)
@@ -79,6 +83,10 @@ extension UITextView {
                         renderView.alpha = 0
                     }
                 case let .imageAsset(imageAsset):
+                    guard renderViews[emoji] == nil else {
+                        break
+                    }
+                    
                     let renderView = UIImageView(frame: rect)
                     renderView.setFromAsset(imageAsset, rendering: rendering)
                     renderViews[emoji] = renderView

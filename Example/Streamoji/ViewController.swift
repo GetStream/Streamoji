@@ -40,10 +40,8 @@ class ViewController: UIViewController {
         view.addSubview(textView)
         
         textView.frame = view.frame
-    }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        try? textView.configureEmojis(exampleEmojis, rendering: .highestQuality)
+        
+        textView.configureEmojis(exampleEmojis, rendering: .highestQuality)
     }
 
     override func didReceiveMemoryWarning() {
