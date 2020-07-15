@@ -18,7 +18,7 @@ let exampleEmojis: [String: EmojiSource] = [
     "this_is_fine": .imageAsset("this-is-fine-fire.gif"),
     "what": .imageAsset("what.png"),
     "homer_disappear": .imageAsset("homer-disappear.gif"),
-    "
+    "let_me_in": .imageUrl("\(path)/let_me_in.gif?raw=true"),
     "smiley": .character("😄"),
     "heart": .character("❤️"),
     "banana": .alias("banana_dance"),

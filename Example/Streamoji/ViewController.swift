@@ -26,6 +26,7 @@ class ViewController: UIViewController {
             GIF :this_is_fine:
             Image :what:
             Local file :homer_disappear:
+            Remote file :let_me_in:
             Unicode :smiley:
 
             """
@@ -35,14 +36,14 @@ class ViewController: UIViewController {
         
         textView.isEditable = true
         textView.textAlignment = .center
-        textView.font = .systemFont(ofSize: 24)
+        //textView.font = .systemFont(ofSize: 24)
         view.addSubview(textView)
         
         textView.frame = view.frame
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        try? textView.configureEmojis(exampleEmojis, rendering: .highestQuality)
+        try? textView.configureEmojis(exampleEmojis, rendering: EmojiRendering(quality: .highest, scale: 2))
     }
 
     override func didReceiveMemoryWarning() {

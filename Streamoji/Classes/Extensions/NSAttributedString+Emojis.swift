@@ -9,14 +9,23 @@ import Foundation
 
 extension NSAttributedString {
     internal func insertingEmojis(
-        _ emojis: [String: EmojiSource]
+        _ emojis: [String: EmojiSource],
+        rendering: EmojiRendering
     ) -> NSAttributedString {
         let attributedString = NSMutableAttributedString(attributedString: self)
 
         var ranges = attributedString.getMatches()
-        let notMatched = attributedString.insertEmojis(emojis, in: string.filterOutRangesInsideCode(ranges: ranges))
+        let notMatched = attributedString.insertEmojis(
+            emojis,
+            in: string.filterOutRangesInsideCode(ranges: ranges),
+            rendering: rendering
+        )
         ranges = attributedString.getMatches(excludingRanges: notMatched)
-        attributedString.insertEmojis(emojis, in: string.filterOutRangesInsideCode(ranges: ranges))
+        attributedString.insertEmojis(
+            emojis,
+            in: string.filterOutRangesInsideCode(ranges: ranges),
+            rendering: rendering
+        )
 
         return attributedString
     }
@@ -42,7 +51,8 @@ extension NSMutableAttributedString {
     @discardableResult
     internal func insertEmojis(
         _ emojis: [String: EmojiSource],
-        in ranges: [NSRange]
+        in ranges: [NSRange],
+        rendering: EmojiRendering
     ) -> [NSRange] {
         var offset = 0
         var notMatched = [NSRange]()
@@ -54,7 +64,7 @@ extension NSMutableAttributedString {
             let paragraphStyle = replacementString.attribute(.paragraphStyle, at: 0, effectiveRange: .none) as? NSParagraphStyle
             
             let emojiAttachment = NSTextAttachment()
-            let fontSize = (font?.pointSize ?? 22.0)
+            let fontSize = (font?.pointSize ?? 22.0) * CGFloat(rendering.scale)
             emojiAttachment.bounds = CGRect(x: 0, y: 0, width: fontSize, height: fontSize)
             
             let emojiAttributedString = NSMutableAttributedString(attachment: emojiAttachment)
