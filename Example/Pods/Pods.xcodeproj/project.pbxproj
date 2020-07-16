@@ -7,59 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040EAA766AE225C9CA1693C87001D82C /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CD7A835F0836B41206BD5C5EA7D95C /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06FDD0DB91DF60D3076265A105BD888C /* Pods-Streamoji_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7303EA18B11E8382CEB625C1C1B7951D /* Pods-Streamoji_Example-dummy.m */; };
-		091131FAA741CE4845D5D24C7DF0223A /* UITextView+Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC8BB745DFA69925F6CCEE05C3B82F0 /* UITextView+Emojis.swift */; };
+		13DFCDD75BE9051F60B061EC28721029 /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A75F6DF6B7ABDC5FFADC6D9424908 /* SwiftyGif-dummy.m */; };
 		1D2BEDA023BBD1DE7E7AB76AE96B0A2A /* Pods-Streamoji_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A825DC21C307D07506BAEFD58D2079A3 /* Pods-Streamoji_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CC1EEC410C399C6C1B6BAB608B7CE4F /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976776E8C2EC098307C30550CEB194C2 /* Internal.swift */; };
-		32C21343A5725722EEC2CBF000C709E3 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CBBFC6BE9A38FA5147366C20ADD02B /* UIImageView+SwiftyGif.swift */; };
 		33DA77EE1506C87C374EAC4598286B07 /* Nuke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D9944B0AB84177C9A261AE7B807BCC /* Nuke-dummy.m */; };
 		33E19BC096B66CDE9AF092BE4B1EE4D2 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C5292E426EA1749958621AB3EB29FC /* DataLoader.swift */; };
-		35826262479C5BE615C59EA8EA3545AD /* NSAttributedString+Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DE46188717859CC308B8C3995515CB /* NSAttributedString+Emojis.swift */; };
 		3DDF693E323B755DC6A79C0AF027FC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
+		3E4AD7EFFAB721E1C8B6B4B936590671 /* Streamoji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E8F0426CAD06F7E87F134EA2A68CF48 /* Streamoji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47DE514FFAFC77339A281C88DC9D26C5 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D898FCBF2396F9D0D831A61FAA217D /* ImageCache.swift */; };
+		4F2AE0B18F4CBA3E98CEF5C3467A4FBC /* EmojiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DE839B866076A7C8CF3079FC285021 /* EmojiSource.swift */; };
+		530A02F469CCBB8499BC2CDD271C0E5D /* EmojiRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16093B8D1420445823AB30819A8BB46F /* EmojiRendering.swift */; };
 		531E8E961587F0E6885690056718AAB4 /* ImagePreheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273668E21B131CA2D7250A857EE4602 /* ImagePreheater.swift */; };
 		57B31AE955ABBC6ACA9E7157844E1003 /* ImageTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A84A68C7BEA4C07086744179F16409 /* ImageTask.swift */; };
 		5857E4CC0AAF89BB24A5DA2EC2CB6481 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E226162249A8E031B5E5D4255F684EF3 /* ImageRequest.swift */; };
 		5DA2B11F9A41C6EAEC8B31F281A6E549 /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE3FF0439110F201788843900D2048 /* ImageViewExtensions.swift */; };
-		70AE0BCE5E58B3D5266163DDEB5EEEE7 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 8491598EA722BC0A99E62BAEA1D1FA8E /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		683FA722B17A02AC7F791C2B42902142 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0925C1A2306F43DA4F00B7FB68DF1B06 /* UIImage+SwiftyGif.swift */; };
+		6C1D907A56ACCAA0B6F352F6566D3BCE /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CBBFC6BE9A38FA5147366C20ADD02B /* UIImageView+SwiftyGif.swift */; };
 		7A38D7188792F42AA0B525259BBE3118 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0937183E031D5AB4D07E99A7414D7C2 /* Task.swift */; };
-		7F511D83A6E4D4C912C23F6A05557860 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51083849C859B99BF347786BDB8A9F0E /* EmojiView.swift */; };
+		7E8EA71C9DE38704362432BB42F006EC /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E54F7D7B5735AEC68F92989B85ECFB1 /* SwiftyGif.framework */; };
+		7EDC75AACCE7FF9FF903EF9D0C123D76 /* UITextView+Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEB2289F675F59D7CB2567EF667252D /* UITextView+Emojis.swift */; };
+		7EF5B654DF0E06455A57EFBDE2C20946 /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B3E7E389D001446B4D6F601832BCBD /* EmojiView.swift */; };
 		844BB8D9B204161C40D80A1EDC17F73A /* Nuke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A5A5FED79BD7C8A98D45853A6ABE370 /* Nuke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		899A08674CC1CF5DAA5DE05D4AE20925 /* EmojiRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC95F14CAF42B3F517C854FDD0B8680 /* EmojiRendering.swift */; };
+		88BA97DB3F87249DA064C56CBC66CE02 /* NSAttributedString+Emojis.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B57180E1DE18DA6BE92FBA0ACB5B2A /* NSAttributedString+Emojis.swift */; };
 		8A8ECA607EA4E9DDA4A2F1404F1AA4A2 /* ImageDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69990B6448B1A43B72798DF243B5DB1C /* ImageDecoding.swift */; };
+		8D5127AE57F0FC32477D48B0B0E7BD12 /* Streamoji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E64C71EEDF929638AAE1DA05B0A1E9 /* Streamoji-dummy.m */; };
+		941EFEB53ACC4D99E7BF7C2AADE9B4FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
 		9D36E15B981166952D88ACDA7EF1FCEF /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C9D0B1198A47DD4B58750FD434786D /* ImagePipeline.swift */; };
 		A198E44609AC439B57F319EBA10C42DA /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A291360BB141AE170FC50064B6CBFF2 /* ImageProcessing.swift */; };
+		A95B29A586CE96FA8A5C7AD835AFD3A2 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E79EBE02DAF3B8C50DD35F452E45C5 /* SwiftyGifManager.swift */; };
 		AB1778BEF12E281DCA6520DB182C0A30 /* ImagePipelineConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136F7C5B2FD6570C0AB81F186F740474 /* ImagePipelineConfiguration.swift */; };
-		B52C895E3B03F38272FC985789F7E029 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0925C1A2306F43DA4F00B7FB68DF1B06 /* UIImage+SwiftyGif.swift */; };
+		B1FDA30631B2754F4FB97A9735EFF11B /* String+CodeRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84F0275DD07A4FBF67FECA0E32246B /* String+CodeRanges.swift */; };
 		B676EF1230DBBBC96FA204FBC763A96D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
-		B72AAE7F776EC860A096EA51333CC144 /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 167A75F6DF6B7ABDC5FFADC6D9424908 /* SwiftyGif-dummy.m */; };
-		BA284EC1161BB7CE02664CA770D00EA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
-		BB4256BF6F174F43F10AE39C7CEDB716 /* Streamoji-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFD755E8A6898E93995874239762366 /* Streamoji-dummy.m */; };
+		B9DDCF81F2A10D1E40228EC745F2FF36 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CB98E923B19137E19C15C027BBDC1 /* Nuke.framework */; };
 		C2B4C43E316156C7BAA89EF72C3BC209 /* ImageEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8CBF549D2A8177D1C7F99A86AE3F05 /* ImageEncoding.swift */; };
-		CFA5FEF47CCD7369380BDF50B4D920EF /* EmojiSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B32CF52C534039D09A84334009DB2A5 /* EmojiSource.swift */; };
+		CB769D3B2FC6C4C921D2A3727C03FF2C /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 8491598EA722BC0A99E62BAEA1D1FA8E /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEF71EB563234892E573A0449FECCE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
 		D24142E5556F657C4224793C376F0F19 /* Pods-Streamoji_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5798B8FBF57A7C505CA325C2EDE3A230 /* Pods-Streamoji_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D60F54169FE99C7C09B22B83986EF02A /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E79EBE02DAF3B8C50DD35F452E45C5 /* SwiftyGifManager.swift */; };
-		DDAF3C8857651423BB6FE73560ECE4E7 /* Streamoji-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC05EB2166DE0FBB26941CF86E1B450 /* Streamoji-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E113BFF705F231576AB1BC02E8CD31FF /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9A2CEF63FEAE693D1351C475273FB4 /* Deprecated.swift */; };
 		E7113480FF02F50FC3C937312C5C230E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
-		E89D56C2D88210D003F41500FEB8965E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */; };
-		E9409BB38E797909E4B531C3BE7632CE /* SwiftyGif.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E54F7D7B5735AEC68F92989B85ECFB1 /* SwiftyGif.framework */; };
-		EAE9036E1B4ADEBC34B3E21DB1058833 /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D2CB98E923B19137E19C15C027BBDC1 /* Nuke.framework */; };
-		EE8DF8B472A48F13F0AFE186F0FB7F0B /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10CD7A835F0836B41206BD5C5EA7D95C /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F09ACB2C5062701272570EBBE36BB7C7 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481635191C35239DA222725DA20511D0 /* DataCache.swift */; };
-		FAB09B1A82A315FA426C44F1DEEE15D8 /* String+CodeRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6ACCD7DE115A6B36EA27A30D5031C7B /* String+CodeRanges.swift */; };
 		FCA7E81CAC3A8898D6C5AC018F191463 /* Pods-Streamoji_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BA3E7738488877616B093A9356A6FD /* Pods-Streamoji_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2338E192B83A0C6482DA9D1CA9612500 /* PBXContainerItemProxy */ = {
+		3C9254E7504A11481B439F613D628334 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
 			remoteInfo = SwiftyGif;
 		};
-		3C9254E7504A11481B439F613D628334 /* PBXContainerItemProxy */ = {
+		3E8F28C390DAEFBD55059083246B0A9B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -73,7 +73,7 @@
 			remoteGlobalIDString = A86FD4A792A6BFA80E5BFD87CBBC07B7;
 			remoteInfo = "Pods-Streamoji_Example";
 		};
-		8E804DF44F620E0F64138D9D96038C25 /* PBXContainerItemProxy */ = {
+		B2F4479A4AAC2350017F01004C61A777 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -103,21 +103,21 @@
 		10D898FCBF2396F9D0D831A61FAA217D /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
 		1273668E21B131CA2D7250A857EE4602 /* ImagePreheater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePreheater.swift; path = Sources/ImagePreheater.swift; sourceTree = "<group>"; };
 		136F7C5B2FD6570C0AB81F186F740474 /* ImagePipelineConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePipelineConfiguration.swift; path = Sources/ImagePipelineConfiguration.swift; sourceTree = "<group>"; };
+		16093B8D1420445823AB30819A8BB46F /* EmojiRendering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiRendering.swift; path = Streamoji/Classes/EmojiRendering.swift; sourceTree = "<group>"; };
 		167A75F6DF6B7ABDC5FFADC6D9424908 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
-		18DE46188717859CC308B8C3995515CB /* NSAttributedString+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Emojis.swift"; sourceTree = "<group>"; };
 		1B69E8B90FEEC16F93151C2A6128FE75 /* Pods-Streamoji_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		269A8EE940CEAC548C2EDB87A4554F03 /* Streamoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.release.xcconfig; sourceTree = "<group>"; };
+		26B3E7E389D001446B4D6F601832BCBD /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Streamoji/Classes/EmojiView.swift; sourceTree = "<group>"; };
 		2A4B88848D713BA31555E0F20D8B0B11 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
 		2D8CBF549D2A8177D1C7F99A86AE3F05 /* ImageEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEncoding.swift; path = Sources/ImageEncoding.swift; sourceTree = "<group>"; };
-		2DAD7D76FC007F48AE48F2FD15BF01BB /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DC95F14CAF42B3F517C854FDD0B8680 /* EmojiRendering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiRendering.swift; path = Streamoji/Classes/EmojiRendering.swift; sourceTree = "<group>"; };
+		2DAD7D76FC007F48AE48F2FD15BF01BB /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nuke.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6A14973F1B56349393A8122BF73001 /* Pods-Streamoji_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		30F21DD7570E7E95D6E5B1194AEDC7C4 /* Streamoji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Streamoji.modulemap; sourceTree = "<group>"; };
-		3136626D376B0841524CF09DC65BAD28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E95EA1A4BA25268E8E7E7A289B9FD04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		34DE839B866076A7C8CF3079FC285021 /* EmojiSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiSource.swift; path = Streamoji/Classes/EmojiSource.swift; sourceTree = "<group>"; };
 		3722BC6CAB9620D28C998D72736E72FD /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
 		396E31B0C360D5414D34E77D838C4A91 /* Pods-Streamoji_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		39A84A68C7BEA4C07086744179F16409 /* ImageTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTask.swift; path = Sources/ImageTask.swift; sourceTree = "<group>"; };
 		39E79EBE02DAF3B8C50DD35F452E45C5 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		3EED8B1F3F2DC68F26807F9E504CD945 /* Streamoji-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Streamoji-Info.plist"; sourceTree = "<group>"; };
 		41CBBFC6BE9A38FA5147366C20ADD02B /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
 		481635191C35239DA222725DA20511D0 /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = Sources/DataCache.swift; sourceTree = "<group>"; };
 		4913D72317B2571EC5964848BE5E4E3D /* Nuke-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-prefix.pch"; sourceTree = "<group>"; };
@@ -126,60 +126,60 @@
 		4A5A5FED79BD7C8A98D45853A6ABE370 /* Nuke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-umbrella.h"; sourceTree = "<group>"; };
 		4BFE3FF0439110F201788843900D2048 /* ImageViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageViewExtensions.swift; path = Sources/ImageViewExtensions.swift; sourceTree = "<group>"; };
 		4D7A8919F4076841CEEB51BD2241AB9B /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
-		51083849C859B99BF347786BDB8A9F0E /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Streamoji/Classes/EmojiView.swift; sourceTree = "<group>"; };
 		5798B8FBF57A7C505CA325C2EDE3A230 /* Pods-Streamoji_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Streamoji_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5E54F7D7B5735AEC68F92989B85ECFB1 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9A2CEF63FEAE693D1351C475273FB4 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Deprecated.swift; sourceTree = "<group>"; };
-		60F67E5B81AC28AA66C74FF15DD2F1EE /* Pods_Streamoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streamoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F67E5B81AC28AA66C74FF15DD2F1EE /* Pods_Streamoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Streamoji_Example.framework; path = "Pods-Streamoji_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6550B16B86EEAFC37E5F8107D20CAC9C /* Streamoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.debug.xcconfig; sourceTree = "<group>"; };
 		69990B6448B1A43B72798DF243B5DB1C /* ImageDecoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDecoding.swift; path = Sources/ImageDecoding.swift; sourceTree = "<group>"; };
 		7303EA18B11E8382CEB625C1C1B7951D /* Pods-Streamoji_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Streamoji_Example-dummy.m"; sourceTree = "<group>"; };
 		75C5292E426EA1749958621AB3EB29FC /* DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataLoader.swift; path = Sources/DataLoader.swift; sourceTree = "<group>"; };
-		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79553AB5373915EED1B3B5ADC379ABB1 /* Streamoji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Streamoji.modulemap; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E626F32C91339EA3C4ABDC94159E5B2 /* Pods-Streamoji_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8491598EA722BC0A99E62BAEA1D1FA8E /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
-		8C8C4C44B6B0604004BB151EE6A402A1 /* Streamoji-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Streamoji-Info.plist"; sourceTree = "<group>"; };
 		8D2CB98E923B19137E19C15C027BBDC1 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9944B0AB84177C9A261AE7B807BCC /* Nuke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nuke-dummy.m"; sourceTree = "<group>"; };
 		92422AEBC5058C56D5E51E95B82CBBB7 /* Pods-Streamoji_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Streamoji_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		976776E8C2EC098307C30550CEB194C2 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/Internal.swift; sourceTree = "<group>"; };
-		9B32CF52C534039D09A84334009DB2A5 /* EmojiSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiSource.swift; path = Streamoji/Classes/EmojiSource.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DC05EB2166DE0FBB26941CF86E1B450 /* Streamoji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Streamoji-umbrella.h"; sourceTree = "<group>"; };
-		9DD9090510B22477B67511769CB74F9A /* Streamoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E8F0426CAD06F7E87F134EA2A68CF48 /* Streamoji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Streamoji-umbrella.h"; sourceTree = "<group>"; };
 		A0880346F6347FFC22028CEC6C34791D /* Pods-Streamoji_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Example-Info.plist"; sourceTree = "<group>"; };
 		A825DC21C307D07506BAEFD58D2079A3 /* Pods-Streamoji_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Streamoji_Example-umbrella.h"; sourceTree = "<group>"; };
-		ABFF664D5CC525DE9390B0FE7F10C315 /* Streamoji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Streamoji-prefix.pch"; sourceTree = "<group>"; };
-		AEC8BB745DFA69925F6CCEE05C3B82F0 /* UITextView+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Emojis.swift"; sourceTree = "<group>"; };
 		B2EF35AC639C23093D46E05AFB7512DE /* Pods-Streamoji_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Streamoji_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BC84F0275DD07A4FBF67FECA0E32246B /* String+CodeRanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+CodeRanges.swift"; sourceTree = "<group>"; };
 		BD1A9C8FC4BD20B5CC711233FB59DCB0 /* Pods-Streamoji_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Streamoji_Tests.modulemap"; sourceTree = "<group>"; };
 		C3A5428E5F382CB472500EABC3568950 /* Pods-Streamoji_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Streamoji_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C400D6CC38AF80CDBA499D3260FF06D3 /* Pods_Streamoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streamoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400D6CC38AF80CDBA499D3260FF06D3 /* Pods_Streamoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Streamoji_Tests.framework; path = "Pods-Streamoji_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E64C71EEDF929638AAE1DA05B0A1E9 /* Streamoji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Streamoji-dummy.m"; sourceTree = "<group>"; };
 		C6C9D0B1198A47DD4B58750FD434786D /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePipeline.swift; path = Sources/ImagePipeline.swift; sourceTree = "<group>"; };
 		C8BA3E7738488877616B093A9356A6FD /* Pods-Streamoji_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Streamoji_Tests-dummy.m"; sourceTree = "<group>"; };
+		CBA0F7F6CB6BD6829B67E13F724110CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CBEB2289F675F59D7CB2567EF667252D /* UITextView+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Emojis.swift"; sourceTree = "<group>"; };
 		CBF847FA246FC278EA6483C29FC4C588 /* Pods-Streamoji_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CFFD755E8A6898E93995874239762366 /* Streamoji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Streamoji-dummy.m"; sourceTree = "<group>"; };
 		D4782713D1DB3DD8441227DB920B8562 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		D59FD213316102AB212A31D8E9750810 /* Streamoji-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Streamoji-prefix.pch"; sourceTree = "<group>"; };
 		D64AE3F7DEC76E2137B8CADA4B083077 /* Nuke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nuke.modulemap; sourceTree = "<group>"; };
 		DB1E5A9276797C055C76042596898C82 /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
 		DCBF38BEC5C18DF12DFD7D3A75F68DD1 /* Pods-Streamoji_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Streamoji_Example.modulemap"; sourceTree = "<group>"; };
 		DE84788B16158E9198C143D0C464B851 /* Nuke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nuke.release.xcconfig; sourceTree = "<group>"; };
 		E0937183E031D5AB4D07E99A7414D7C2 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Task.swift; sourceTree = "<group>"; };
 		E226162249A8E031B5E5D4255F684EF3 /* ImageRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRequest.swift; path = Sources/ImageRequest.swift; sourceTree = "<group>"; };
-		E469F064D35B16112096A5FD69A95099 /* Streamoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Streamoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E6ACCD7DE115A6B36EA27A30D5031C7B /* String+CodeRanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+CodeRanges.swift"; sourceTree = "<group>"; };
-		EAC1963F41D1D4858606C7BEB5FBED16 /* Streamoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Streamoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAD6AD882E2E4C098FB5DB164C098729 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E3B57180E1DE18DA6BE92FBA0ACB5B2A /* NSAttributedString+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Emojis.swift"; sourceTree = "<group>"; };
+		EAC1963F41D1D4858606C7BEB5FBED16 /* Streamoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Streamoji.framework; path = Streamoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8F31CF9252F2A80CEB99CF61636C7 /* Pods-Streamoji_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F6E748A5560B693EADE29B397A586077 /* Pods-Streamoji_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Tests-Info.plist"; sourceTree = "<group>"; };
+		FD75F13F574D5E88656C2B2847EAA317 /* Streamoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.release.xcconfig; sourceTree = "<group>"; };
+		FDD99818949826A2D88CEE25F18DB711 /* Streamoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Streamoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1AABC0722F99988CF014C8D6CD37F354 /* Frameworks */ = {
+		0EA742357782B2E249374B2B4BB0CC21 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89D56C2D88210D003F41500FEB8965E /* Foundation.framework in Frameworks */,
+				CEF71EB563234892E573A0449FECCE61 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,21 +199,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CB77AEDA1C19208D5E321261049C2854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941EFEB53ACC4D99E7BF7C2AADE9B4FE /* Foundation.framework in Frameworks */,
+				B9DDCF81F2A10D1E40228EC745F2FF36 /* Nuke.framework in Frameworks */,
+				7E8EA71C9DE38704362432BB42F006EC /* SwiftyGif.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA3568AA4AFE557F7111A4352BA5849C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3DDF693E323B755DC6A79C0AF027FC60 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F20F4E059E07360D5E6220E201307E87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA284EC1161BB7CE02664CA770D00EA8 /* Foundation.framework in Frameworks */,
-				EAE9036E1B4ADEBC34B3E21DB1058833 /* Nuke.framework in Frameworks */,
-				E9409BB38E797909E4B531C3BE7632CE /* SwiftyGif.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +258,7 @@
 				E0937183E031D5AB4D07E99A7414D7C2 /* Task.swift */,
 				A5E37429F0A71D5CFA86DA5899BB4715 /* Support Files */,
 			);
+			name = Nuke;
 			path = Nuke;
 			sourceTree = "<group>";
 		};
@@ -305,46 +306,8 @@
 				41CBBFC6BE9A38FA5147366C20ADD02B /* UIImageView+SwiftyGif.swift */,
 				910EB3815B220B99E9524E611C2BD103 /* Support Files */,
 			);
+			name = SwiftyGif;
 			path = SwiftyGif;
-			sourceTree = "<group>";
-		};
-		55DC6FCAD7E4B220D3D353830307DF14 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EAD6AD882E2E4C098FB5DB164C098729 /* LICENSE */,
-				3136626D376B0841524CF09DC65BAD28 /* README.md */,
-				E469F064D35B16112096A5FD69A95099 /* Streamoji.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		6069907DCDAEECB79257F565C7869A6F /* Streamoji */ = {
-			isa = PBXGroup;
-			children = (
-				2DC95F14CAF42B3F517C854FDD0B8680 /* EmojiRendering.swift */,
-				9B32CF52C534039D09A84334009DB2A5 /* EmojiSource.swift */,
-				51083849C859B99BF347786BDB8A9F0E /* EmojiView.swift */,
-				C956C6C3918FD537965377ACF0C516D6 /* Extensions */,
-				55DC6FCAD7E4B220D3D353830307DF14 /* Pod */,
-				86ACE875F3EC93211DAE57650CB07681 /* Support Files */,
-			);
-			name = Streamoji;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		86ACE875F3EC93211DAE57650CB07681 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				30F21DD7570E7E95D6E5B1194AEDC7C4 /* Streamoji.modulemap */,
-				CFFD755E8A6898E93995874239762366 /* Streamoji-dummy.m */,
-				8C8C4C44B6B0604004BB151EE6A402A1 /* Streamoji-Info.plist */,
-				ABFF664D5CC525DE9390B0FE7F10C315 /* Streamoji-prefix.pch */,
-				9DC05EB2166DE0FBB26941CF86E1B450 /* Streamoji-umbrella.h */,
-				9DD9090510B22477B67511769CB74F9A /* Streamoji.debug.xcconfig */,
-				269A8EE940CEAC548C2EDB87A4554F03 /* Streamoji.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Streamoji";
 			sourceTree = "<group>";
 		};
 		910EB3815B220B99E9524E611C2BD103 /* Support Files */ = {
@@ -362,6 +325,21 @@
 			path = "../Target Support Files/SwiftyGif";
 			sourceTree = "<group>";
 		};
+		935DEED6E7AD65028052B8C93EFC23E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79553AB5373915EED1B3B5ADC379ABB1 /* Streamoji.modulemap */,
+				C4E64C71EEDF929638AAE1DA05B0A1E9 /* Streamoji-dummy.m */,
+				3EED8B1F3F2DC68F26807F9E504CD945 /* Streamoji-Info.plist */,
+				D59FD213316102AB212A31D8E9750810 /* Streamoji-prefix.pch */,
+				9E8F0426CAD06F7E87F134EA2A68CF48 /* Streamoji-umbrella.h */,
+				6550B16B86EEAFC37E5F8107D20CAC9C /* Streamoji.debug.xcconfig */,
+				FD75F13F574D5E88656C2B2847EAA317 /* Streamoji.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Streamoji";
+			sourceTree = "<group>";
+		};
 		9638D9D89DEEF5CC588235709CCD06CD /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,14 +350,6 @@
 				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		9A8DA41CB45641FC181DA787218F540F /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6069907DCDAEECB79257F565C7869A6F /* Streamoji */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A5E37429F0A71D5CFA86DA5899BB4715 /* Support Files */ = {
@@ -395,6 +365,35 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Nuke";
+			sourceTree = "<group>";
+		};
+		AABB0E3318E18A630ABCF6589AEA86B6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3B57180E1DE18DA6BE92FBA0ACB5B2A /* NSAttributedString+Emojis.swift */,
+				BC84F0275DD07A4FBF67FECA0E32246B /* String+CodeRanges.swift */,
+				CBEB2289F675F59D7CB2567EF667252D /* UITextView+Emojis.swift */,
+			);
+			name = Extensions;
+			path = Streamoji/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		AFD48FEA1E81F4194B515AF5CF91263E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE090D4ADB1C646717AD1480ADE13FB /* Streamoji */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BAD1848589ACB5C88F50E186EA418988 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0F7F6CB6BD6829B67E13F724110CB /* LICENSE */,
+				2E95EA1A4BA25268E8E7E7A289B9FD04 /* README.md */,
+				FDD99818949826A2D88CEE25F18DB711 /* Streamoji.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C4735B70DB79A7D33684D3D6A24FEF16 /* Pods-Streamoji_Tests */ = {
@@ -413,22 +412,11 @@
 			path = "Target Support Files/Pods-Streamoji_Tests";
 			sourceTree = "<group>";
 		};
-		C956C6C3918FD537965377ACF0C516D6 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				18DE46188717859CC308B8C3995515CB /* NSAttributedString+Emojis.swift */,
-				E6ACCD7DE115A6B36EA27A30D5031C7B /* String+CodeRanges.swift */,
-				AEC8BB745DFA69925F6CCEE05C3B82F0 /* UITextView+Emojis.swift */,
-			);
-			name = Extensions;
-			path = Streamoji/Classes/Extensions;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9A8DA41CB45641FC181DA787218F540F /* Development Pods */,
+				AFD48FEA1E81F4194B515AF5CF91263E /* Development Pods */,
 				125BA781B58DCBAA6E99882B77CD502A /* Frameworks */,
 				1E7CFF798BC95A7741836E83CFED60E3 /* Pods */,
 				9638D9D89DEEF5CC588235709CCD06CD /* Products */,
@@ -436,23 +424,28 @@
 			);
 			sourceTree = "<group>";
 		};
+		DAE090D4ADB1C646717AD1480ADE13FB /* Streamoji */ = {
+			isa = PBXGroup;
+			children = (
+				16093B8D1420445823AB30819A8BB46F /* EmojiRendering.swift */,
+				34DE839B866076A7C8CF3079FC285021 /* EmojiSource.swift */,
+				26B3E7E389D001446B4D6F601832BCBD /* EmojiView.swift */,
+				AABB0E3318E18A630ABCF6589AEA86B6 /* Extensions */,
+				BAD1848589ACB5C88F50E186EA418988 /* Pod */,
+				935DEED6E7AD65028052B8C93EFC23E8 /* Support Files */,
+			);
+			name = Streamoji;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		038429F98574F8CB2948DFDDBE645F31 /* Headers */ = {
+		354A37F573161505F83AEF53DF5B27A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDAF3C8857651423BB6FE73560ECE4E7 /* Streamoji-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B17F2118379A74063FBEFCB849E43CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8DF8B472A48F13F0AFE186F0FB7F0B /* SwiftyGif-umbrella.h in Headers */,
-				70AE0BCE5E58B3D5266163DDEB5EEEE7 /* SwiftyGif.h in Headers */,
+				3E4AD7EFFAB721E1C8B6B4B936590671 /* Streamoji-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +473,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D6F73A9ECA93D1759DB1EC5976E77A08 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040EAA766AE225C9CA1693C87001D82C /* SwiftyGif-umbrella.h in Headers */,
+				CB769D3B2FC6C4C921D2A3727C03FF2C /* SwiftyGif.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -503,12 +505,12 @@
 		};
 		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67F5AF917EBFAE1DB6F01EE42682EBFF /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildConfigurationList = 233C2C6101A6EA2878ACFCD2D9784A91 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
 			buildPhases = (
-				3B17F2118379A74063FBEFCB849E43CD /* Headers */,
-				C052AFE997FDB26840573317D2BA6810 /* Sources */,
-				1AABC0722F99988CF014C8D6CD37F354 /* Frameworks */,
-				8EFB552E089AE316171C940768CBE324 /* Resources */,
+				D6F73A9ECA93D1759DB1EC5976E77A08 /* Headers */,
+				3A8651E501BB6C416D99C0AF6592FA8E /* Sources */,
+				0EA742357782B2E249374B2B4BB0CC21 /* Frameworks */,
+				463B47B5DB03CF4BD0529D721275AA76 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -561,18 +563,18 @@
 		};
 		FAA33EACD61E884937D96D11D162C571 /* Streamoji */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AD145D4D9F5F39F54B1265B667F291E /* Build configuration list for PBXNativeTarget "Streamoji" */;
+			buildConfigurationList = C2B54F07538B84E6BD54013302F65AC1 /* Build configuration list for PBXNativeTarget "Streamoji" */;
 			buildPhases = (
-				038429F98574F8CB2948DFDDBE645F31 /* Headers */,
-				122AD3AC7D9EC9B808A57B55587668A1 /* Sources */,
-				F20F4E059E07360D5E6220E201307E87 /* Frameworks */,
-				0A545654EB1A9AC2816135E7DF7A8BFF /* Resources */,
+				354A37F573161505F83AEF53DF5B27A8 /* Headers */,
+				764F03F13EDE7E3E82DB096735D5179C /* Sources */,
+				CB77AEDA1C19208D5E321261049C2854 /* Frameworks */,
+				624F3A2E4086EB8E37527FE1C737052C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB50FD774B81B35A3042C08337D4E82D /* PBXTargetDependency */,
-				AF7FEF3D0A75FB9237BB07002196023A /* PBXTargetDependency */,
+				612A5A16A8A8AAA22244F1B061E695FD /* PBXTargetDependency */,
+				EE7F4DC39BCB59816C8425F3B13E925E /* PBXTargetDependency */,
 			);
 			name = Streamoji;
 			productName = Streamoji;
@@ -611,7 +613,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A545654EB1A9AC2816135E7DF7A8BFF /* Resources */ = {
+		463B47B5DB03CF4BD0529D721275AA76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -625,14 +627,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C76B409E24BFD28628BCC9C2B7101A8 /* Resources */ = {
+		624F3A2E4086EB8E37527FE1C737052C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EFB552E089AE316171C940768CBE324 /* Resources */ = {
+		6C76B409E24BFD28628BCC9C2B7101A8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -649,17 +651,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		122AD3AC7D9EC9B808A57B55587668A1 /* Sources */ = {
+		3A8651E501BB6C416D99C0AF6592FA8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				899A08674CC1CF5DAA5DE05D4AE20925 /* EmojiRendering.swift in Sources */,
-				CFA5FEF47CCD7369380BDF50B4D920EF /* EmojiSource.swift in Sources */,
-				7F511D83A6E4D4C912C23F6A05557860 /* EmojiView.swift in Sources */,
-				35826262479C5BE615C59EA8EA3545AD /* NSAttributedString+Emojis.swift in Sources */,
-				BB4256BF6F174F43F10AE39C7CEDB716 /* Streamoji-dummy.m in Sources */,
-				FAB09B1A82A315FA426C44F1DEEE15D8 /* String+CodeRanges.swift in Sources */,
-				091131FAA741CE4845D5D24C7DF0223A /* UITextView+Emojis.swift in Sources */,
+				13DFCDD75BE9051F60B061EC28721029 /* SwiftyGif-dummy.m in Sources */,
+				A95B29A586CE96FA8A5C7AD835AFD3A2 /* SwiftyGifManager.swift in Sources */,
+				683FA722B17A02AC7F791C2B42902142 /* UIImage+SwiftyGif.swift in Sources */,
+				6C1D907A56ACCAA0B6F352F6566D3BCE /* UIImageView+SwiftyGif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,14 +693,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C052AFE997FDB26840573317D2BA6810 /* Sources */ = {
+		764F03F13EDE7E3E82DB096735D5179C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B72AAE7F776EC860A096EA51333CC144 /* SwiftyGif-dummy.m in Sources */,
-				D60F54169FE99C7C09B22B83986EF02A /* SwiftyGifManager.swift in Sources */,
-				B52C895E3B03F38272FC985789F7E029 /* UIImage+SwiftyGif.swift in Sources */,
-				32C21343A5725722EEC2CBF000C709E3 /* UIImageView+SwiftyGif.swift in Sources */,
+				530A02F469CCBB8499BC2CDD271C0E5D /* EmojiRendering.swift in Sources */,
+				4F2AE0B18F4CBA3E98CEF5C3467A4FBC /* EmojiSource.swift in Sources */,
+				7EF5B654DF0E06455A57EFBDE2C20946 /* EmojiView.swift in Sources */,
+				88BA97DB3F87249DA064C56CBC66CE02 /* NSAttributedString+Emojis.swift in Sources */,
+				8D5127AE57F0FC32477D48B0B0E7BD12 /* Streamoji-dummy.m in Sources */,
+				B1FDA30631B2754F4FB97A9735EFF11B /* String+CodeRanges.swift in Sources */,
+				7EDC75AACCE7FF9FF903EF9D0C123D76 /* UITextView+Emojis.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -722,23 +724,17 @@
 			target = A86FD4A792A6BFA80E5BFD87CBBC07B7 /* Pods-Streamoji_Example */;
 			targetProxy = 74ABB6CB46697D598E379B2991F70483 /* PBXContainerItemProxy */;
 		};
+		612A5A16A8A8AAA22244F1B061E695FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nuke;
+			target = 062A64896E847A6749F58B6BA9A931B1 /* Nuke */;
+			targetProxy = B2F4479A4AAC2350017F01004C61A777 /* PBXContainerItemProxy */;
+		};
 		8C00D659C0D29F2D56A54C30363F0B48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyGif;
 			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
 			targetProxy = 3C9254E7504A11481B439F613D628334 /* PBXContainerItemProxy */;
-		};
-		AF7FEF3D0A75FB9237BB07002196023A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyGif;
-			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
-			targetProxy = 2338E192B83A0C6482DA9D1CA9612500 /* PBXContainerItemProxy */;
-		};
-		CB50FD774B81B35A3042C08337D4E82D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Nuke;
-			target = 062A64896E847A6749F58B6BA9A931B1 /* Nuke */;
-			targetProxy = 8E804DF44F620E0F64138D9D96038C25 /* PBXContainerItemProxy */;
 		};
 		DB1F0BCFAD351CE5B938EF88F750B127 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -751,6 +747,12 @@
 			name = Streamoji;
 			target = FAA33EACD61E884937D96D11D162C571 /* Streamoji */;
 			targetProxy = E261BA730BBC35291850056B11473EF5 /* PBXContainerItemProxy */;
+		};
+		EE7F4DC39BCB59816C8425F3B13E925E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 3E8F28C390DAEFBD55059083246B0A9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -889,6 +891,101 @@
 			};
 			name = Release;
 		};
+		3D74745B2A8D11434FCC8B1C1B216CD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6550B16B86EEAFC37E5F8107D20CAC9C /* Streamoji.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Streamoji/Streamoji-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Streamoji/Streamoji-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Streamoji/Streamoji.modulemap";
+				PRODUCT_MODULE_NAME = Streamoji;
+				PRODUCT_NAME = Streamoji;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4579507646F92CDE42E5FA1B369E0CBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1E5A9276797C055C76042596898C82 /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A19029F29A85FC83B575DB823BA2171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4B88848D713BA31555E0F20D8B0B11 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		52548F118085BF0BA5EEEF7A3E8B4551 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF847FA246FC278EA6483C29FC4C588 /* Pods-Streamoji_Tests.debug.xcconfig */;
@@ -923,9 +1020,9 @@
 			};
 			name = Debug;
 		};
-		6B71A3487012BB4D9340833E297B93CA /* Release */ = {
+		539F71A94A0C98AD06E99D30147F43F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 269A8EE940CEAC548C2EDB87A4554F03 /* Streamoji.release.xcconfig */;
+			baseConfigurationReference = FD75F13F574D5E88656C2B2847EAA317 /* Streamoji.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -948,7 +1045,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -987,38 +1084,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A37B8A077CAD4D571F6EBD37558779E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB1E5A9276797C055C76042596898C82 /* SwiftyGif.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyGif;
-				PRODUCT_NAME = SwiftyGif;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A75B0DC41F3D25DDF1DB689E8ED6CCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1106,43 +1171,12 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		B47A2E7957105D41A3FA40DED3D132D2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD9090510B22477B67511769CB74F9A /* Streamoji.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Streamoji/Streamoji-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Streamoji/Streamoji-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Streamoji/Streamoji.modulemap";
-				PRODUCT_MODULE_NAME = Streamoji;
-				PRODUCT_NAME = Streamoji;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C2B597A19CA8DF25CCDF59C31FE0C600 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1178,37 +1212,6 @@
 			};
 			name = Debug;
 		};
-		FCF4B7BC79070095F669C7F0A1536E2A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A4B88848D713BA31555E0F20D8B0B11 /* SwiftyGif.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyGif;
-				PRODUCT_NAME = SwiftyGif;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1221,11 +1224,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AD145D4D9F5F39F54B1265B667F291E /* Build configuration list for PBXNativeTarget "Streamoji" */ = {
+		233C2C6101A6EA2878ACFCD2D9784A91 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B47A2E7957105D41A3FA40DED3D132D2 /* Debug */,
-				6B71A3487012BB4D9340833E297B93CA /* Release */,
+				4A19029F29A85FC83B575DB823BA2171 /* Debug */,
+				4579507646F92CDE42E5FA1B369E0CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1257,11 +1260,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67F5AF917EBFAE1DB6F01EE42682EBFF /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+		C2B54F07538B84E6BD54013302F65AC1 /* Build configuration list for PBXNativeTarget "Streamoji" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FCF4B7BC79070095F669C7F0A1536E2A /* Debug */,
-				A37B8A077CAD4D571F6EBD37558779E7 /* Release */,
+				3D74745B2A8D11434FCC8B1C1B216CD7 /* Debug */,
+				539F71A94A0C98AD06E99D30147F43F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -2,7 +2,7 @@ PODS:
   - Nuke (8.4.1)
   - Streamoji (0.1.0):
     - Nuke (~> 8.4)
-    - SwiftyGif (~> 5.2.0)
+    - SwiftyGif (~> 5.2)
   - SwiftyGif (5.2.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Nuke: d780e3507a86b86c589ab3cc5cd302d5456f06fb
-  Streamoji: 61828b7598201fff04dd863606b893e5bf5718d1
+  Streamoji: a2e00861ac424585834d33820f0569812ce82d25
   SwiftyGif: b85c6b33a9411859d9e1db998b6a8214aea942df
 
 PODFILE CHECKSUM: 51a24f7b476ef443382c2cf8bcc2f2409f95c3f3

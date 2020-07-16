@@ -9,7 +9,7 @@
 import Streamoji
 
 let exampleEmojis: [String: EmojiSource] = [
-    // from assets (GIF)
+    // from assets [animated GIF]
     "baby_yoda": .imageAsset("baby-yoda-soup.gif"),
     "banana_dance": .imageAsset("bananadance.gif"),
     "excuse_me": .imageAsset("excuseme.gif"),
@@ -18,7 +18,7 @@ let exampleEmojis: [String: EmojiSource] = [
     "homer_disappear": .imageAsset("homer-disappear.gif"),
     "carlton": .imageAsset("carlton.gif"),
     
-    // from assets (still image)
+    // from assets [still image (jpg, png, etc)]
     "what": .imageAsset("what.png"),
     
     // from remote url

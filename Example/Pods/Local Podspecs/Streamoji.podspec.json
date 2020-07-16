@@ -1,18 +1,19 @@
 {
   "name": "Streamoji",
   "version": "0.1.0",
-  "summary": "A short description of Streamoji.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/cardoso/Streamoji",
+  "summary": "Custom emoji rendering library for iOS apps with support for GIF & images.",
+  "swift_versions": "5.2",
+  "description": "Custom emoji rendering library for iOS apps with support for GIF & images\nPlug-in extension for UITextView\nMade with 💘 by GetStream.io",
+  "homepage": "https://github.com/GetStream/Streamoji",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "cardoso": "matheus@cardo.so"
+    "cardoso": "matheus@getstream.io"
   },
   "source": {
-    "git": "https://github.com/cardoso/Streamoji.git",
+    "git": "https://github.com/GetStream/Streamoji.git",
     "tag": "0.1.0"
   },
   "platforms": {
@@ -21,10 +22,11 @@
   "source_files": "Streamoji/Classes/**/*",
   "dependencies": {
     "SwiftyGif": [
-      "~> 5.2.0"
+      "~> 5.2"
     ],
     "Nuke": [
       "~> 8.4"
     ]
-  }
+  },
+  "swift_version": "5.2"
 }
