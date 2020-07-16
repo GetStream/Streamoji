@@ -5,6 +5,7 @@
 <hr />
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/getstream/streamoji/Swift)](https://github.com/GetStream/Streamoji/actions?query=workflow%3ASwift)
+[![Cocoapods](https://img.shields.io/cocoapods/v/Streamoji)](https://cocoapods.org/pods/Streamoji)
 [![License](https://img.shields.io/github/license/getstream/streamoji)](/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
 
