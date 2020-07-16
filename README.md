@@ -4,10 +4,10 @@
 
 <hr />
 
-[![CI Status](https://img.shields.io/travis/cardoso/Streamoji.svg?style=flat)](https://travis-ci.org/cardoso/Streamoji)
-[![Version](https://img.shields.io/cocoapods/v/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
-[![License](https://img.shields.io/cocoapods/l/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
-[![Platform](https://img.shields.io/cocoapods/p/Streamoji.svg?style=flat)](https://cocoapods.org/pods/Streamoji)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/getstream/streamoji/Swift)
+![GitHub](https://img.shields.io/github/license/getstream/streamoji)
+[![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
+
 
 <img align="right" src="meta/images/demo.gif" width="33%" />
 
