@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Streamoji'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Custom emoji rendering library for iOS apps with support for GIF & images.'
 
   s.swift_version = '5.2'
