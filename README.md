@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/GetStream/Streamoji/"><img src="meta/images/banner.gif" width="60%" /></a>
+  <a href="https://github.com/GetStream/Streamoji/"><img src="https://github.com/GetStream/Streamoji/raw/main/meta/images/banner.gif" width="60%" /></a>
 </p>
 
 <hr />
@@ -9,7 +9,7 @@
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
 
 
-<img align="right" src="meta/images/demo.gif" width="33%" />
+<img align="right" src="https://github.com/GetStream/Streamoji/raw/main/meta/images/demo.gif" width="33%" />
 
 ## Usage
 
