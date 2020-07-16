@@ -21,8 +21,9 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Custom emoji rendering library for iOS apps with support for GIF & images
-Plug-in extension for UITextView
-Made with 💘 by GetStream.io
+- plug-in extension for UITextView
+- performance, cache ✅
+- with 💘 from @GetStream
                        DESC
 
   s.homepage         = 'https://github.com/GetStream/Streamoji'

@@ -45,7 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		710F8F737E6CC7E7E5160B6A /* Pods-Streamoji_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Streamoji_Example.debug.xcconfig"; path = "Target Support Files/Pods-Streamoji_Example/Pods-Streamoji_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		809A322624ABD16300254749 /* ExampleEmojis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleEmojis.swift; sourceTree = "<group>"; };
-		B5719351A2A6F7B82EB873D6 /* Streamoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Streamoji.podspec; path = ../Streamoji.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5719351A2A6F7B82EB873D6 /* Streamoji.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Streamoji.podspec; path = ../Streamoji.podspec; sourceTree = "<group>"; };
 		CF231BC98C7336EC0A677637 /* Pods_Streamoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streamoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F17349687F316A33A0DFBD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E88B32B91CF9A41459E6DD01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };

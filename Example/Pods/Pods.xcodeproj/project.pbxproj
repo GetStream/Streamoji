@@ -109,9 +109,9 @@
 		26B3E7E389D001446B4D6F601832BCBD /* EmojiView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiView.swift; path = Streamoji/Classes/EmojiView.swift; sourceTree = "<group>"; };
 		2A4B88848D713BA31555E0F20D8B0B11 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
 		2D8CBF549D2A8177D1C7F99A86AE3F05 /* ImageEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageEncoding.swift; path = Sources/ImageEncoding.swift; sourceTree = "<group>"; };
-		2DAD7D76FC007F48AE48F2FD15BF01BB /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nuke.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DAD7D76FC007F48AE48F2FD15BF01BB /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6A14973F1B56349393A8122BF73001 /* Pods-Streamoji_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2E95EA1A4BA25268E8E7E7A289B9FD04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2E95EA1A4BA25268E8E7E7A289B9FD04 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		34DE839B866076A7C8CF3079FC285021 /* EmojiSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmojiSource.swift; path = Streamoji/Classes/EmojiSource.swift; sourceTree = "<group>"; };
 		3722BC6CAB9620D28C998D72736E72FD /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
 		396E31B0C360D5414D34E77D838C4A91 /* Pods-Streamoji_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -129,20 +129,20 @@
 		5798B8FBF57A7C505CA325C2EDE3A230 /* Pods-Streamoji_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Streamoji_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5E54F7D7B5735AEC68F92989B85ECFB1 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9A2CEF63FEAE693D1351C475273FB4 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Deprecated.swift; sourceTree = "<group>"; };
-		60F67E5B81AC28AA66C74FF15DD2F1EE /* Pods_Streamoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Streamoji_Example.framework; path = "Pods-Streamoji_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60F67E5B81AC28AA66C74FF15DD2F1EE /* Pods_Streamoji_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streamoji_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6550B16B86EEAFC37E5F8107D20CAC9C /* Streamoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.debug.xcconfig; sourceTree = "<group>"; };
 		69990B6448B1A43B72798DF243B5DB1C /* ImageDecoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDecoding.swift; path = Sources/ImageDecoding.swift; sourceTree = "<group>"; };
 		7303EA18B11E8382CEB625C1C1B7951D /* Pods-Streamoji_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Streamoji_Example-dummy.m"; sourceTree = "<group>"; };
 		75C5292E426EA1749958621AB3EB29FC /* DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataLoader.swift; path = Sources/DataLoader.swift; sourceTree = "<group>"; };
 		79553AB5373915EED1B3B5ADC379ABB1 /* Streamoji.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Streamoji.modulemap; sourceTree = "<group>"; };
-		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif.framework; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E626F32C91339EA3C4ABDC94159E5B2 /* Pods-Streamoji_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8491598EA722BC0A99E62BAEA1D1FA8E /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
 		8D2CB98E923B19137E19C15C027BBDC1 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D9944B0AB84177C9A261AE7B807BCC /* Nuke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nuke-dummy.m"; sourceTree = "<group>"; };
 		92422AEBC5058C56D5E51E95B82CBBB7 /* Pods-Streamoji_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Streamoji_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		976776E8C2EC098307C30550CEB194C2 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/Internal.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E8F0426CAD06F7E87F134EA2A68CF48 /* Streamoji-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Streamoji-umbrella.h"; sourceTree = "<group>"; };
 		A0880346F6347FFC22028CEC6C34791D /* Pods-Streamoji_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Example-Info.plist"; sourceTree = "<group>"; };
 		A825DC21C307D07506BAEFD58D2079A3 /* Pods-Streamoji_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Streamoji_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -150,11 +150,11 @@
 		BC84F0275DD07A4FBF67FECA0E32246B /* String+CodeRanges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+CodeRanges.swift"; sourceTree = "<group>"; };
 		BD1A9C8FC4BD20B5CC711233FB59DCB0 /* Pods-Streamoji_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Streamoji_Tests.modulemap"; sourceTree = "<group>"; };
 		C3A5428E5F382CB472500EABC3568950 /* Pods-Streamoji_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Streamoji_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C400D6CC38AF80CDBA499D3260FF06D3 /* Pods_Streamoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Streamoji_Tests.framework; path = "Pods-Streamoji_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C400D6CC38AF80CDBA499D3260FF06D3 /* Pods_Streamoji_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Streamoji_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E64C71EEDF929638AAE1DA05B0A1E9 /* Streamoji-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Streamoji-dummy.m"; sourceTree = "<group>"; };
 		C6C9D0B1198A47DD4B58750FD434786D /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePipeline.swift; path = Sources/ImagePipeline.swift; sourceTree = "<group>"; };
 		C8BA3E7738488877616B093A9356A6FD /* Pods-Streamoji_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Streamoji_Tests-dummy.m"; sourceTree = "<group>"; };
-		CBA0F7F6CB6BD6829B67E13F724110CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CBA0F7F6CB6BD6829B67E13F724110CB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		CBEB2289F675F59D7CB2567EF667252D /* UITextView+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextView+Emojis.swift"; sourceTree = "<group>"; };
 		CBF847FA246FC278EA6483C29FC4C588 /* Pods-Streamoji_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Streamoji_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4782713D1DB3DD8441227DB920B8562 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
@@ -166,12 +166,12 @@
 		E0937183E031D5AB4D07E99A7414D7C2 /* Task.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Task.swift; path = Sources/Task.swift; sourceTree = "<group>"; };
 		E226162249A8E031B5E5D4255F684EF3 /* ImageRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRequest.swift; path = Sources/ImageRequest.swift; sourceTree = "<group>"; };
 		E3B57180E1DE18DA6BE92FBA0ACB5B2A /* NSAttributedString+Emojis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Emojis.swift"; sourceTree = "<group>"; };
-		EAC1963F41D1D4858606C7BEB5FBED16 /* Streamoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Streamoji.framework; path = Streamoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC1963F41D1D4858606C7BEB5FBED16 /* Streamoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Streamoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F8F31CF9252F2A80CEB99CF61636C7 /* Pods-Streamoji_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F534A833623DADFCD1FD3B12513D89AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F6E748A5560B693EADE29B397A586077 /* Pods-Streamoji_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Streamoji_Tests-Info.plist"; sourceTree = "<group>"; };
 		FD75F13F574D5E88656C2B2847EAA317 /* Streamoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Streamoji.release.xcconfig; sourceTree = "<group>"; };
-		FDD99818949826A2D88CEE25F18DB711 /* Streamoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Streamoji.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FDD99818949826A2D88CEE25F18DB711 /* Streamoji.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Streamoji.podspec; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,7 +258,6 @@
 				E0937183E031D5AB4D07E99A7414D7C2 /* Task.swift */,
 				A5E37429F0A71D5CFA86DA5899BB4715 /* Support Files */,
 			);
-			name = Nuke;
 			path = Nuke;
 			sourceTree = "<group>";
 		};
@@ -306,7 +305,6 @@
 				41CBBFC6BE9A38FA5147366C20ADD02B /* UIImageView+SwiftyGif.swift */,
 				910EB3815B220B99E9524E611C2BD103 /* Support Files */,
 			);
-			name = SwiftyGif;
 			path = SwiftyGif;
 			sourceTree = "<group>";
 		};
@@ -1171,8 +1169,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

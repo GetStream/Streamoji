@@ -5,7 +5,7 @@
 //  Created by Matheus Cardoso on 30/06/20.
 //
 
-import Foundation
+import UIKit
 
 extension NSAttributedString {
     internal func insertingEmojis(

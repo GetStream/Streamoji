@@ -5,6 +5,8 @@
 //  Created by Matheus Cardoso on 30/06/20.
 //
 
+import Foundation
+
 extension String {
     func codeRanges() -> [NSRange] {
         let codeRegex = try? NSRegularExpression(pattern: "(```)(?:[a-zA-Z]+)?((?:.|\r|\n)*?)(```)", options: [.anchorsMatchLines])
