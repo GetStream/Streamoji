@@ -9,6 +9,7 @@
 ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Streamoji)
 [![License](https://img.shields.io/github/license/getstream/streamoji)](/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
+![Twitter Follow](https://img.shields.io/twitter/follow/getstream_io?style=social)
 
 
 <img align="right" src="https://github.com/GetStream/Streamoji/raw/main/meta/images/demo.gif" width="33%" />
