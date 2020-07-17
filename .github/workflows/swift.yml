@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
-      run: xcodebuild
+      run: xcodebuild -project Streamoji.xcodeproj CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
