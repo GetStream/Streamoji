@@ -12,6 +12,8 @@
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
 ![Twitter Follow](https://img.shields.io/twitter/follow/getstream_io?style=social)
 
+Custom emojis are a fun way to bring more life and customizability to your apps. They're available in some of the most popular apps, such Slack, Discord, and Twitch. However, iOS SDK doesn't provide straight forward support for custom emojis out of the box. Now, you're a couple lines of code away from adding them to your own app with this library.
+
 Streamoji is a custom emoji rendering library for iOS. It supports GIF <img src="https://github.com/GetStream/Streamoji/blob/main/meta/emojis/carlton.gif?raw=true" width="24" />, images <img src="https://github.com/GetStream/Streamoji/blob/main/meta/emojis/doge.png?raw=true" width="24"/>, and unicode 🦊. It loads from URLs or local assets. Caching is taken care of and performance is ⚡️ fast! Made with 💘 by the folks @ [Stream](https://getstream.io).
 
 <img align="right" src="https://github.com/GetStream/Streamoji/raw/main/meta/images/demo.gif" width="33%" />
@@ -61,7 +63,7 @@ textView.attributedText = NSAttributedString(string:
 textView.configureEmojis(exampleEmojis, rendering: .highestQuality)
 ```
 
-You can also tweak a couple (for now) rendering options: `quality` and `scale`.
+You can also tweak a couple (for now) rendering options: quality and scale in relation to the surrounding text.
 
 ## Example
 
