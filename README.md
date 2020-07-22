@@ -10,7 +10,7 @@
 ![SPM & Carthage compatible](https://img.shields.io/badge/SPM%20%26%20Carthage-compatible-green)
 [![License](https://img.shields.io/github/license/getstream/streamoji)](/LICENSE)
 [![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2FGetStream%2FStreamoji)
-![Twitter Follow](https://img.shields.io/twitter/follow/getstream_io?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/getstream_io?style=social)](https://twitter.com/intent/follow?screen_name=getstream_io)
 
 Custom emojis are a fun way to bring more life and customizability to your apps. They're available in some of the most popular apps, such as Slack, Discord, and Twitch. However, iOS SDK doesn't provide straight forward support for custom emojis out of the box. Now, you're a couple code lines away from adding them to your own app with this library.
 
