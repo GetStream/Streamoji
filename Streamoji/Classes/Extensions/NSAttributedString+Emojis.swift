@@ -41,7 +41,7 @@ extension NSAttributedString {
         }
         ranges.append(NSRange(location: lastMatchIndex, length: length - lastMatchIndex))
 
-        let regex = try? NSRegularExpression(pattern: ":(\\w|-|\\+)+:", options: [])
+        let regex = try? NSRegularExpression(pattern: ":(\\w|[^\\x00-\\x7F]+|-|\\+)+:", options: [])
         let matchRanges = ranges.map { range in regex?.matches(in: string, options: [], range: range).map { $0.range(at: 0) } ?? [] }
         return matchRanges.reduce(into: [NSRange]()) { $0.append(contentsOf: $1) }
     }

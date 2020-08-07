@@ -30,5 +30,8 @@ let exampleEmojis: [String: EmojiSource] = [
     
     // aliases
     "banana": .alias("banana_dance"),
-    "parrot": .alias("party_parrot")
+    "parrot": .alias("party_parrot"),
+    
+    // unicode inside shortcode
+    "�": .character("😊")
 ]
